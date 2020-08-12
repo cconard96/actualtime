@@ -1,4 +1,4 @@
-var ajax_url = '../plugins/actualtime/ajax/timer.php';
+var ajax_url = CFG_GLPI.root_doc+"/"+GLPI_PLUGINS_PATH.actualtime+"/ajax/timer.php";
 var timer;
 var popup_div = '';
 // Translations
